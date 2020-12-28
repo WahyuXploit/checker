@@ -170,7 +170,7 @@ cat << "EOF"
     ,|      /     )
    ( |     /     /
     " \_  (__   (__            [Twilio SMTP Aws Checker]
-        "-._,)--._,)                    [ Thanks For God ]
+        "-._,)--._,)            Updated by: WahyuXploit
 EOF
 echo ""
 echo "Method : "
