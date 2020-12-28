@@ -153,31 +153,17 @@ if [[ ! -d result ]]; then
 	mkdir result
 fi
 cat << "EOF"
-                      .".
-                     /  |
-                    /  /
-                   / ,"
-       .-------.--- /
-      "._ __.-/ o. o\
-         "   (    Y  )
-              )     /
-             /     (
-            /       Y
-        .-"         |
-       /  _     \    \
-      /    `. ". ) /' )
-     Y       )( / /(,/
-    ,|      /     )
-   ( |     /     /
-    " \_  (__   (__            [Twilio SMTP Aws Checker]
-        "-._,)--._,)            Updated by: WahyuXploit
+echo -e $kuning"====================================="
+echo -e $kuning"       [Twilio SMTP Aws Checker]          "
+echo -e $kuning"      Copyright WahyuXploit@2020        "
+echo -e $"====================================="  
 EOF
 echo ""
-echo "Method : "
+echo "Choose : "
 echo "1. Scanner SMTP/AWS-SMS/TWILIO" 
 echo "2. SMTP CHECKER" 
 echo "3. TWILIO CHECKER"
-read -p "Choose Your Method : " pilihan;
+read -p "Choose Your Checker : " pilihan;
 
 if [ $pilihan -eq 1 ]; then
 	read -p "Select Your List: " listo;
