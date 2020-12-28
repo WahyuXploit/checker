@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Updated By WahyuXploit
-# 28-Des-2020
+# 26-July-2020
 clear
 
 merah='\e[91m'
@@ -165,9 +165,9 @@ cat << "EOF"
             /       Y
         .-"         |  
        /  _     \    \                   =====================================
-      /    `. ". ) /' )                                   [Twilio SMTP Aws Checker]
-     Y       )( / /(,/                                    Updated by: WahyuXploit
-    ,|      /     )                         =====================================
+      /    `. ". ) /' )                       [Twilio SMTP Aws Checker]
+     Y       )( / /(,/                        Updated by: WahyuXploit
+    ,|      /     )                       =====================================
    ( |     /     /
     " \_  (__   (__  
         "-._,)--._,)            
