@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Updated By WahyuXploit
-# 26-July-2020
+# 28-Des-2020
 clear
 
 merah='\e[91m'
@@ -153,10 +153,24 @@ if [[ ! -d result ]]; then
 	mkdir result
 fi
 cat << "EOF"
-echo -e $kuning"====================================="
-echo -e $kuning"       [Twilio SMTP Aws Checker]          "
-echo -e $kuning"      Copyright WahyuXploit@2020        "
-echo -e $"====================================="  
+                      .".
+                     /  |
+                    /  /
+                   / ,"
+       .-------.--- /
+      "._ __.-/ o. o\
+         "   (    Y  )
+              )     /
+             /     (
+            /       Y
+        .-"         |  
+       /  _     \    \                   =====================================
+      /    `. ". ) /' )                                   [Twilio SMTP Aws Checker]
+     Y       )( / /(,/                                    Updated by: WahyuXploit
+    ,|      /     )                         =====================================
+   ( |     /     /
+    " \_  (__   (__  
+        "-._,)--._,)            
 EOF
 echo ""
 echo "Choose : "
